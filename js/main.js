@@ -78,7 +78,7 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'ri-moo
 
 if (selectedTheme) {
 
-    document.body.classList[selectedTheme === 'sark' ? 'add' : 'remove'](darkTheme)
+    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
     themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme)
 }
 
